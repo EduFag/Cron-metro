@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    background-image: url(img/fundo.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.cronometro {
+    text-align: center;
+    background-color: #bb16b971;
+    width: 40%;
+    margin: 10vh auto;
+    padding: 3em;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    font-size: 5em;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+p {
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+.numbers {
+    color: green;
+    font-size: 5em;
+    background-color: black;
+    width: 5em;
+    margin: auto;
+    border-bottom: 10px solid rgb(54, 54, 54);
+    border-top: 10px solid rgb(54, 54, 54);
+    border-left: 10px solid rgb(54, 54, 54);
+    border-right: 10px solid rgb(54, 54, 54);
+    border-color: #999 #222222 #222222 #999;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button {
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    background-color: rgb(107, 8, 107);
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(128, 0, 128);
+    margin-top: 7%;
+    padding: 0.5em;
+    font-size: 1.5em;
+    font-family: 'Archivo Black', sans-serif;
+}
